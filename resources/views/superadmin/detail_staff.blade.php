@@ -78,7 +78,7 @@
                                     <div class="col-md-4"></div>
                                     <div class="col-md-4 text-center">
                                         <div class="col-md-12 ">
-                                            <img src="..." alt="..." class="img-thumbnail">
+                                            <img src="#" alt="" class="img-thumbnail">
                                         </div>
                                         <div class="col-md-12 p-0 t-10">
                                             <label for="nik">NIK Test</label> 
@@ -298,31 +298,266 @@
                                </div>
                             </div>
                             <div class="tab-pane fade" id="document">
-                                <p>Profile tab document ...</p>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        KTP
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>No KTP</th>
+                                                        <th>File KTP</th>
+                                                        <th>Diperbaharui</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        NPWP
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>No NPWP</th>
+                                                        <th>File NPWP</th>
+                                                        <th>Diperbaharui</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        BPJS Kesehatan
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>No BPJS Kes</th>
+                                                        <th>File BPJS</th>
+                                                        <th>Diperbaharui</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        BPJS Ketenagakerjaan
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>No BPJS Ketnaker</th>
+                                                        <th>File BPJS</th>
+                                                        <th>Diperbaharui</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                        Kartu Keluarga (KK)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>No Kartu Keluarga</th>
+                                                        <th>File KK</th>
+                                                        <th>Diperbaharui</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="contract">
-                                <p>Messages tab contract ...</p>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                       Kontrak
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Status</th>
+                                                        <th>Tanggal Awal</th>
+                                                        <th>Lama Kontrak / Kerja</th>
+                                                        <th>Tanggal Akhir</th>
+                                                        <th>Dokumen Kontrak</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="promotion">
-                                <p>Messages tab promotion ...</p>
+                                <p>On Development</p>
                             </div>
                             <div class="tab-pane fade" id="demotion">
-                                <p>Messages tab demotion ...</p>
+                                <p>On Development</p>
                             </div>
                             <div class="tab-pane fade" id="mutation">
-                                <p>Messages tab demotion ...</p>
+                                <p>On Development</p>
                             </div>
                             <div class="tab-pane fade" id="warning">
-                                <p>Messages tab warning ...</p>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                       Peringatan
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Tanggal Peringatan</th>
+                                                        <th>Dokumen</th>
+                                                        <th>Keterangan</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="absence">
-                                <p>Messages tab absence ...</p>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                       Absensi
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Periode Absensi</th>
+                                                        <th>Hari Masuk</th>
+                                                        <th>Terlambat Izin</th>
+                                                        <th>Pulang Cepat</th>
+                                                        <th>Terlambat (%)</th>
+                                                        <th>Pulang Cepat (%)</th>
+                                                        <th>SKD</th>
+                                                        <th>Non SKD</th>
+                                                        <th>Izin</th>
+                                                        <th>Izin Khusus</th>
+                                                        <th>Cuti</th>
+                                                        <th>Diliburkan</th>
+                                                        <th>Alpha</th>
+                                                        <th>Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="ijin">
-                                <p>Messages tab ijin ...</p>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                       Ijin
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Tanggal</th>
+                                                        <th>Hari</th>
+                                                        <th>Break In</th>
+                                                        <th>Break Out</th>
+                                                        <th>Status Izin</th>
+                                                        <th>Keterangan</th>
+                                                        <th>Tujuan</th>
+                                                        <th>Kendaraan</th>
+                                                        <th>SKD</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane fade" id="cuti">
-                                <p>Messages tab cuti ...</p>
+                                <div class="card mb-4">
+                                    <div class="card-header">
+                                       Cuti
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table class="table table-striped table-bordered" id="tableUser" width="100%" cellspacing="0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>No</th>
+                                                        <th>Nama</th>
+                                                        <th>Periode</th>
+                                                        <th>Hak Cuti Tahunan</th>
+                                                        <th>Cuti Yang Diambil</th>
+                                                        <th>Sisa Cuti</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="rowData">
+                
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         
