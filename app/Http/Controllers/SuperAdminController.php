@@ -18,4 +18,8 @@ class SuperAdminController extends Controller
     public function addStaff(){
         return view('superadmin.add_staff');
     }
+
+    public function detailStaff(){
+        return view('superadmin.detail_staff');
+    }
 }

@@ -23,6 +23,7 @@ Route::group(['middleware' => ['role:superadmin']], function () {
     Route::get('/superadmin', 'HomeController@IndexSuperAdmin')->name('superadmin');
     Route::get('/staff', 'SuperAdminController@listStaff')->name('staff');
     Route::get('/add_staff', 'SuperAdminController@addStaff')->name('add_staff');
+    Route::get('/detail_staff', 'SuperAdminController@detailStaff')->name('detail_staff');
 });
 
 Route::group(['middleware' => ['role:admin']], function () {
