@@ -14,6 +14,7 @@
                     <div class="col-md-4">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb float-right pd-0 bg-white">
+                                <li class="breadcrumb-item"><a href="/superadmin">Dashboard</a></li>
                                 <li class="breadcrumb-item"><a href="/staff">Data Staff</a></li>
                                 <li class="breadcrumb-item active" aria-current="page"><a href="#">Detail Staff</a></li>
                             </ol>
