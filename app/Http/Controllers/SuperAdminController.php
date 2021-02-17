@@ -11,15 +11,18 @@ class SuperAdminController extends Controller
         return view('superadmin.index');
     }
 
-    public function listStaff(){
+    public function listStaff()
+    {
         return view('superadmin.staff_employee');
     }
 
-    public function addStaff(){
+    public function addStaff()
+    {
         return view('superadmin.add_staff');
     }
 
-    public function detailStaff(){
+    public function detailStaff()
+    {
         return view('superadmin.detail_staff');
     }
 }

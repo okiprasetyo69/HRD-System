@@ -91,6 +91,7 @@
             </div>
         </main>
         <!-- end main content -->
+        @include("superadmin.pensiun_staff")
 @endsection
 @section('pagespecificscripts')
     <script type="text/javascript" src="{{ asset('js/user/index.js') }}" defer></script>

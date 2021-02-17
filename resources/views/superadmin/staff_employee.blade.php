@@ -48,10 +48,27 @@
                                         <th>Divisi</th>
                                         <th>Department</th>
                                         <th>Jabatan</th>
+                                        <th>Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody class="rowData">
-
+                                    <tr>
+                                        <th>1</th>
+                                        <th>12345</th>
+                                        <th>Image</th>
+                                        <th>Test Nama </th>
+                                        <th>ABC</th>
+                                        <th>ABC</th>
+                                        <th>ABC</th>
+                                        <th>
+                                            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#modalPensiunStaff">
+                                            Pensiun
+                                            </button>
+                                            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalSettingStaff">
+                                                Setting
+                                            </button>
+                                        </th>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -60,6 +77,8 @@
             </div>
         </main>
         <!-- end main content -->
+    @include('superadmin.pensiun_staff')
+    @include('superadmin.setting_staff')
 @endsection
 @section('pagespecificscripts')
     <script type="text/javascript" src="{{ asset('js/superadmin/staff/staff.js') }}" defer></script>

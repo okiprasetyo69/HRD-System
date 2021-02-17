@@ -149,7 +149,6 @@
                                         <div class="col-md-10">
                                             <select class="form-control default custom-field" id="division" name="division">
                                                 <option value="0"> -- Pilih Divisi -- </option>
-
                                             </select>
                                         </div>
                                     </div>
@@ -160,7 +159,6 @@
                                         <div class="col-md-10">
                                             <select class="form-control default custom-field" id="branch" name="branch">
                                                 <option value="0"> -- Pilih Cabang -- </option>
-
                                             </select>
                                         </div>
                                     </div>
